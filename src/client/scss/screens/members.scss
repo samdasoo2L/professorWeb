@@ -1,0 +1,29 @@
+.each_member {
+  display: flex;
+  height: 150px;
+  flex-direction: row;
+  img {
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+  }
+  div {
+    height: 100%;
+    display: flex;
+    align-items: start;
+    padding-left: 20px;
+    span {
+      text-align: start;
+    }
+    :first-child {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+.member_separ {
+  margin: 20px 0px;
+  border-top: 1px solid rgba($color: #000000, $alpha: 0.3);
+}

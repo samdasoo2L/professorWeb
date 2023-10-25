@@ -1,0 +1,10 @@
+extends base
+include mixins/member
+
+block content 
+    div
+        div.pageName Members
+        div
+            each member in members
+                +member(member)
+            

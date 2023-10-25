@@ -1,0 +1,28 @@
+.professor__content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  img {
+    border-radius: 5px;
+    height: 275px;
+    width: 205px;
+  }
+  div {
+    align-items: start;
+    margin-left: 10px;
+    margin-bottom: 15px;
+  }
+  div div:nth-child(1) {
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+.education__content,
+.affiliations__content {
+  list-style-type: circle;
+  width: 100%;
+  li {
+    margin: 10px;
+    width: 100%;
+  }
+}
