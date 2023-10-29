@@ -160,14 +160,13 @@ header nav ul li:hover {
 }
 
 footer {
-  background-color: #fcfcfc;
+  background-color: #f6f6f6;
   text-align: center;
   font-size: 12px;
   opacity: 0.8;
   height: 30px;
   padding: 20px 0px;
-  margin-top: 50px;
-  border-top: 1px solid #f4f4f4;
+  border-top: 1px solid gainsboro;
 }
 
 .professor__content {
@@ -238,7 +237,7 @@ footer {
 }
 .sci__content li,
 .kopa__content li {
-  margin: 10px;
+  margin: 25px 10px;
   width: 100%;
 }
 
@@ -254,7 +253,12 @@ body {
 
 main {
   max-width: 1200px;
+  min-height: 800px;
+  background-color: #f9f9f9;
   width: 80%;
+  border-left: 1px solid #c9c9c9;
+  border-right: 1px solid #c9c9c9;
+  padding: 0px 15px;
   margin: 0 auto;
   margin-top: 50px;
   display: flex;
