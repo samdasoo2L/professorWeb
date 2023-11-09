@@ -1,9 +1,20 @@
-const student = [{ name: "JI HYE KIM", phone: "010-8641-7076", pic: "p2.jpg" }];
+const student = [
+  { name: "XXX", process: "xxx", email: "xxx@jejunu.com" },
+  { name: "XXX", process: "xxx", email: "xxx@jejunu.com" },
+  { name: "XXX", process: "xxx", email: "xxx@jejunu.com" },
+  { name: "XXX", process: "xxx", email: "xxx@jejunu.com" },
+  { name: "XXX", process: "xxx", email: "xxx@jejunu.com" },
+  { name: "XXX", process: "xxx", email: "xxx@jejunu.com" },
+  { name: "XXX", process: "xxx", email: "xxx@jejunu.com" },
+];
 
 export const home = (req, res) => res.render("home", { pageTitle: "Home" });
 
 export const professor = (req, res) =>
   res.render("professor", { pageTitle: "Professor" });
+
+export const research = (req, res) =>
+  res.render("research", { pageTitle: "Research area" });
 
 export const members = (req, res) =>
   res.render("members", { pageTitle: "Members", members: student });
